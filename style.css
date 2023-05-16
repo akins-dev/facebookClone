@@ -310,3 +310,80 @@ body {
     background-color: #eff2f5;
     border-radius: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .header__input input{
+        display: none;
+    }
+
+    .header__middle{
+        display: none;
+    }
+
+    .header__right .header_info, h4{
+        display: none;
+    }
+
+    .widgets{
+        display: none;
+    }
+
+    .feed{
+        margin-top: 29px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .story h4{
+        font-size: 10px;
+    }
+
+    .story__avatar{
+        width: 40px;
+    }
+}
+
+@media (max-width: 425px){
+    .storyReel{
+        left: 25px;
+        right: 25px;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .story .h4{
+        left: 10px;
+    }
+
+    .story_4, .story_5{
+        display: none;
+    }
+}
+
+@media (max-width: 320px){
+    .storyReel{
+        left: 25px;
+        right: 25px;
+        overflow-x: scroll;
+    }
+
+    .story .h4{
+        left: 10px;
+    }
+
+    .story_4, .story_5{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1440px){
+    .feed{
+        width: 50%;
+        padding: 10px 50px;
+    }
+}
